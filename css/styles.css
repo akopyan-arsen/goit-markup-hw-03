@@ -115,6 +115,10 @@ a {
   padding-bottom: 24px;
 }
 
+.hero-section {
+  padding: 188px 0;
+}
+
 .hero-h {
   color: #fff;
   text-align: center;
@@ -122,10 +126,10 @@ a {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  width: 496px;
+  max-width: 496px;
 }
 
-.hero {
+.hero-container {
   display: flex;
   flex-direction: column;
   gap: 48px;
@@ -146,7 +150,10 @@ a {
   letter-spacing: 0.04em;
   background: #4d5ae5;
   cursor: pointer;
-  display: inline-flex;
+  display: block;
+  min-width: 169px;
+  height: 56px;
+  border: none;
   padding: 16px 32px;
   align-items: flex-start;
   gap: 10px;
