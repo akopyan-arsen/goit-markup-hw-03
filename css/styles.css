@@ -35,7 +35,7 @@ ol {
 a {
   text-decoration: none;
 }
-
+/* HEADER */
 .container {
   width: 1158px;
   margin: 0 auto;
@@ -61,7 +61,6 @@ a {
 .nav-list-container {
   display: flex;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .logo-header {
@@ -74,6 +73,7 @@ a {
   text-transform: uppercase;
   text-decoration: none;
   margin-right: 76px;
+  padding: 24px 0;
 }
 
 .logo-header-black {
@@ -112,9 +112,10 @@ a {
   font-weight: 400;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  padding-top: 24px;
-  padding-bottom: 24px;
+  padding: 24px 0;
 }
+
+/* MAIN */
 
 .hero-section {
   padding: 188px 0;
