@@ -37,11 +37,9 @@ a {
 }
 
 .container {
-  width: 1440px;
-  padding-left: 0;
-  padding-right: 0;
-  margin-left: 0;
-  margin-right: 0;
+  width: 1158px;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .section {
@@ -49,16 +47,16 @@ a {
   padding-bottom: 120px;
 }
 .nav {
-  display: flex;
   border-bottom: 1px solid #e7e9fc;
 }
 .nav-container {
   display: flex;
+  align-items: center;
 }
 .nav-list-container {
   display: flex;
   gap: 40px;
-  padding: 25.5px 0;
+  padding: 24px 0;
   margin-right: 332px;
 }
 
@@ -71,7 +69,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   text-decoration: none;
-  padding: 25.5px 76px 25.5px 150px;
+  margin-right: 76px;
 }
 
 .logo-header-black {
@@ -95,14 +93,14 @@ a {
 
 .header-address {
   font-style: normal;
-  margin-right: 156px;
+  align-items: center;
 }
 
 .header-address-list {
   display: flex;
   gap: 40px;
-  padding-top: 25.5px;
-  padding-bottom: 25.5px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-address-a {
